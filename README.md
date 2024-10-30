@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://i.imgur.com/HuVsWVG.png" style="width: 20%; max-width: 50%; height: auto;">
+  <img src="https://i.imgur.com/HuVsWVG.png" style="width: 20%; max-width: 30%; height: auto;">
 </p>
-
 
 <div align="center">
   <h1>
