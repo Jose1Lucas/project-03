@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://camo.githubusercontent.com/3b58e34f4607c08fad1787cfed025ca8adae420722d089a630a89bc6e8c8f748/68747470733a2f2f692e696d6775722e636f6d2f75626c454e32682e706e67" height="100" data-canonical-src="https://i.imgur.com/HuVsWVG.png" style="max-width: 100%;">
+<img src="https://i.imgur.com/HuVsWVG.png" height="100" data-canonical-src="https://i.imgur.com/HuVsWVG.png" style="max-width: 100%;">
 
 <div align="center">
   <h1>
