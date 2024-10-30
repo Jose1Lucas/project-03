@@ -34,5 +34,5 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
 | 👩‍💻 Lara Vitória da Costa Bezerra | [GitHub](https://github.com/usuario2) |
 | 👨‍💻 Mickaio Gabriel Francisco da Silva | [GitHub](https://github.com/kaiogabs) |
 | 👩‍💻 Raylany Shimizu de Macêdo | [GitHub](https://github.com/usuario4) |
-| 👨‍💻 Wesley Nascimento Santos | [GitHub](https://github.com/usuario5) |
+| 👨‍💻 Wesley Nascimento Santos | [GitHub](https://github.com/Wesleypk) |
 </div>
