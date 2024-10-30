@@ -13,36 +13,10 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
   <h2>👥 Equipe do Projeto</h2>
 </div>
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <b>🧑‍💻 José Lucas Pereira de Andrade</b><br>
-        Desenvolvedor<br>
-        <a href="https://github.com/usuario1">GitHub</a>
-      </td>
-      <td align="center">
-        <b>👩‍💻 Lara Vitória da Costa Bezerra</b><br>
-        Desenvolvedora<br>
-        <a href="https://github.com/usuario2">GitHub</a>
-      </td>
-      <td align="center">
-        <b>🧑‍🔧 Mickaio Gabriel Francisco da Silva</b><br>
-        Gerente de Projeto<br>
-        <a href="https://www.linkedin.com">LinkedIn</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <b>👩‍💼 Raylany Shimizu de Macêdo</b><br>
-        Designer<br>
-        <a href="https://github.com/usuario4">GitHub</a>
-      </td>
-      <td align="center">
-        <b>🧑‍💼 Wesley Nascimento Santos</b><br>
-        Desenvolvedor<br>
-        <a href="https://github.com/usuario5">GitHub</a>
-      </td>
-    </tr>
-  </table>
-</div>
+| Integrante | Função | Contato |
+|------------|--------|---------|
+| 🧑‍💻 José Lucas Pereira de Andrade | Desenvolvedor | [GitHub](https://github.com/usuario1) |
+| 👩‍💻 Lara Vitória da Costa Bezerra | Desenvolvedora | [GitHub](https://github.com/usuario2) |
+| 🧑‍🔧 Mickaio Gabriel Francisco da Silva | Gerente de Projeto | [LinkedIn](https://www.linkedin.com) |
+| 👩‍💼 Raylany Shimizu de Macêdo | Designer | [GitHub](https://github.com/usuario4) |
+| 🧑‍💼 Wesley Nascimento Santos | Desenvolvedor | [GitHub](https://github.com/usuario5) |
