@@ -11,7 +11,7 @@
 O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equipes na organização e monitoramento de suas tarefas. Este sistema oferecerá uma interface intuitiva para o registro e gerenciamento de tarefas, possibilitando que os usuários incluam, vejam, atualizem e eliminem suas tarefas cotidianas de maneira eficaz.
 </p>
 
-<div align="center">
+<div align="justify">
   <ol>
     <li><b>Adicionar Tarefa:</b> possibilita o cadastro de novas tarefas, com informações relevantes como a descrição e a data de criação, simplificando a gestão das tarefas cotidianas.</li>
     <li><b>Marcar Tarefa como Concluída:</b> os usuários têm a opção de assinalar quando uma tarefa foi concluída, preservando um registro de avanço e simplificando a gestão de tarefas.</li>
@@ -23,7 +23,6 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
 
 <div align="center">
   <h2>👥 Equipe do Projeto</h2>
-</div>
 
 | Integrante | Contato |
 |------------|---------|
@@ -32,3 +31,4 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
 | 🧑‍🔧 Mickaio Gabriel Francisco da Silva | [GitHub](https://github.com/kaiogabs) |
 | 👩‍💼 Raylany Shimizu de Macêdo | [GitHub](https://github.com/usuario4) |
 | 🧑‍💼 Wesley Nascimento Santos | [GitHub](https://github.com/usuario5) |
+</div>
