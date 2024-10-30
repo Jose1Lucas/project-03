@@ -31,8 +31,8 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
 | Integrante | Contato |
 |------------|---------|
 | 👨‍💻 José Lucas Pereira de Andrade | [GitHub](https://github.com/Jose1Lucas) |
-| 👩‍💻 Lara Vitória da Costa Bezerra | [GitHub](https://github.com/usuario2) |
+| 👩‍💻 Lara Vitória da Costa Bezerra | [GitHub](https://github.com/larav1) |
 | 👨‍💻 Mickaio Gabriel Francisco da Silva | [GitHub](https://github.com/kaiogabs) |
-| 👩‍💻 Raylany Shimizu de Macêdo | [GitHub](https://github.com/usuario4) |
+| 👩‍💻 Raylany Shimizu de Macêdo | [GitHub](https://github.com/Raylany-Shimizu) |
 | 👨‍💻 Wesley Nascimento Santos | [GitHub](https://github.com/Wesleypk) |
 </div>
