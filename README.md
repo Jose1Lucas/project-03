@@ -1,5 +1,7 @@
 <p align="center">
-<img src="https://i.imgur.com/HuVsWVG.png" height="100" data-canonical-src="https://i.imgur.com/HuVsWVG.png" style="max-width: 200%;">
+  <img src="https://i.imgur.com/HuVsWVG.png" style="width: 50%; max-width: 100%; height: auto;">
+</p>
+
 
 <div align="center">
   <h1>
