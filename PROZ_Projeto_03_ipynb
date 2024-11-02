@@ -1,253 +1,93 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/Jose1Lucas/project-03/blob/main/PROZ_Projeto_03_Esbo%C3%A7o.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "1UvzkPo1Rq72"
-      },
-      "outputs": [],
-      "source": []
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "eJoXY_uNNLOd",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "outputId": "e6691a9f-0bcb-4325-fd4f-e6b3059db400"
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "SISTEMA GERENCIADOR DE TAREFAS\n",
-            "----------------------------------------\n",
-            "\n",
-            "Menu do gerenciador de tarefas \n",
-            "Escolha uma ação:\n",
-            "\n",
-            "1. Adicionar tarefas \n",
-            "2. Marcar tarefa como concluída \n",
-            "3. Remover tarefa \n",
-            "4. Visualizar tarefas pendentes \n",
-            "5. Sair\n",
-            "----------------------------------------\n",
-            "\n",
-            "1\n",
-            "\n",
-            "Escreva o nome das novas Tarefas: \n",
-            "Biscoito\n",
-            "\n",
-            "A lista de tarefas adicionadas é:\n",
-            "- Biscoito\n",
-            "----------------------------------------\n",
-            "\n",
-            "Menu do gerenciador de tarefas \n",
-            "Escolha uma ação:\n",
-            "\n",
-            "1. Adicionar tarefas \n",
-            "2. Marcar tarefa como concluída \n",
-            "3. Remover tarefa \n",
-            "4. Visualizar tarefas pendentes \n",
-            "5. Sair\n",
-            "----------------------------------------\n",
-            "\n",
-            "3\n",
-            "1  -  Biscoito\n",
-            "Número da tarefa a remover: 1\n",
-            "Tarefa \"Biscoito\" removida!\n",
-            "----------------------------------------\n",
-            "\n",
-            "Menu do gerenciador de tarefas \n",
-            "Escolha uma ação:\n",
-            "\n",
-            "1. Adicionar tarefas \n",
-            "2. Marcar tarefa como concluída \n",
-            "3. Remover tarefa \n",
-            "4. Visualizar tarefas pendentes \n",
-            "5. Sair\n",
-            "----------------------------------------\n",
-            "\n",
-            "1\n",
-            "\n",
-            "Escreva o nome das novas Tarefas: \n",
-            "Biscoito\n",
-            "\n",
-            "A lista de tarefas adicionadas é:\n",
-            "- Biscoito\n",
-            "----------------------------------------\n",
-            "\n",
-            "Menu do gerenciador de tarefas \n",
-            "Escolha uma ação:\n",
-            "\n",
-            "1. Adicionar tarefas \n",
-            "2. Marcar tarefa como concluída \n",
-            "3. Remover tarefa \n",
-            "4. Visualizar tarefas pendentes \n",
-            "5. Sair\n",
-            "----------------------------------------\n",
-            "\n",
-            "4\n",
-            "\n",
-            "Tarefas pendentes:\n",
-            "1. Biscoito\n",
-            "----------------------------------------\n",
-            "\n",
-            "Menu do gerenciador de tarefas \n",
-            "Escolha uma ação:\n",
-            "\n",
-            "1. Adicionar tarefas \n",
-            "2. Marcar tarefa como concluída \n",
-            "3. Remover tarefa \n",
-            "4. Visualizar tarefas pendentes \n",
-            "5. Sair\n",
-            "----------------------------------------\n",
-            "\n",
-            "2\n",
-            "1  -  Biscoito\n",
-            "Qual tarefa você concluiu? Digite o número dela: Bis\n",
-            "Por favor, digite um número válido.\n",
-            "Qual tarefa você concluiu? Digite o número dela: 1\n",
-            "Ótimo trabalho! A tarefa \"Biscoito - Concluída\" foi marcada como concluída!\n",
-            "----------------------------------------\n",
-            "\n",
-            "Menu do gerenciador de tarefas \n",
-            "Escolha uma ação:\n",
-            "\n",
-            "1. Adicionar tarefas \n",
-            "2. Marcar tarefa como concluída \n",
-            "3. Remover tarefa \n",
-            "4. Visualizar tarefas pendentes \n",
-            "5. Sair\n",
-            "----------------------------------------\n",
-            "\n"
-          ]
-        }
-      ],
-      "source": [
-        "print(\"SISTEMA GERENCIADOR DE TAREFAS\")\n",
-        "tarefas = []\n",
-        "\n",
-        "#Função 00 Imprimir lista formatada.\n",
-        "def imprimir_lista_formatada(tarefas):\n",
-        "  contador = 1\n",
-        "  for i in range (len(tarefas)):\n",
-        "    print(contador,\" - \", tarefas[i])\n",
-        "    contador = contador + 1\n",
-        "\n",
-        "#função 01 adicionar tarefas.\n",
-        "def adicionar_tarefas(tarefas, novas_tarefas):\n",
-        "    tarefas.extend(novas_tarefas.split(', '))\n",
-        "\n",
-        "# Função 02 Marcar tarefa como concluída.\n",
-        "def marcar_tarefa_como_concluida(tarefas):\n",
-        "    if len(tarefas) == 0:\n",
-        "        print(\"Sua lista está vazia! Não há tarefas para marcar como concluída.\")\n",
-        "        return\n",
-        "\n",
-        "    imprimir_lista_formatada(tarefas) # Lista as tarefas para o usuário\n",
-        "\n",
-        "    while True:  # Loop para garantir que o usuário insira um valor válido\n",
-        "        try:\n",
-        "            indice = int(input(\"Qual tarefa você concluiu? Digite o número dela: \")) - 1\n",
-        "            if indice >= 0 and indice < len(tarefas):  # Verifica se o índice é válido\n",
-        "                tarefas[indice] += \" - Concluída\"  # Marca a tarefa como concluída\n",
-        "                print(f'Ótimo trabalho! A tarefa \"{tarefas[indice]}\" foi marcada como concluída!')\n",
-        "                break  # Sai do loop após uma entrada válida\n",
-        "            else:\n",
-        "                print(\"Número inválido! Tente novamente.\")\n",
-        "        except ValueError:  # Captura a exceção se a conversão falhar\n",
-        "            print(\"Por favor, digite um número válido.\")\n",
-        "\n",
-        "#Função 03 remover tarefas.\n",
-        "def remover_tarefa():\n",
-        "    if tarefas:\n",
-        "        imprimir_lista_formatada(tarefas)  #Lista as tarefas antes de remover\n",
-        "        indice = int(input(\"Número da tarefa a remover: \")) - 1\n",
-        "        if 0 <= indice < len(tarefas):\n",
-        "            print(f'Tarefa \"{tarefas[indice]}\" removida!')\n",
-        "            tarefas.pop(indice)  #Remove a tarefa pelo índice\n",
-        "        else:\n",
-        "            print(\"Número inválido.\")\n",
-        "    else:\n",
-        "        print(\"Não há tarefas para remover.\")\n",
-        "\n",
-        "#Função 04 Visualizar tarefas pendentes.\n",
-        "def visualizar_tarefas_pendentes(tarefas):\n",
-        "  if not tarefas:\n",
-        "    print(\"\\nNão há tarefas pendentes\")\n",
-        "\n",
-        "  else:\n",
-        "    print(\"\\nTarefas pendentes:\")\n",
-        "    for i, tarefa in enumerate(tarefas, start = 1):  #Começa a enumeração pelo 1\n",
-        "      print(f\"{i}. {tarefa}\")\n",
-        "\n",
-        "#interface\n",
-        "sistema = True\n",
-        "while sistema:\n",
-        "  print(\"-\" * 40)\n",
-        "  print(\"\\nMenu do gerenciador de tarefas \\nEscolha uma ação:\")\n",
-        "  print(\"\\n1. Adicionar tarefas \\n2. Marcar tarefa como concluída \\n3. Remover tarefa \\n4. Visualizar tarefas pendentes \\n5. Sair\")\n",
-        "  print(\"-\" * 40)\n",
-        "  print()\n",
-        "  opcao = int(input())\n",
-        "\n",
-        "  if (opcao == 1):\n",
-        "    print(\"\\nEscreva o nome das novas Tarefas: \")\n",
-        "    novas_tarefas = str(input())\n",
-        "    adicionar_tarefas(tarefas, novas_tarefas)\n",
-        "    novas_tarefas = novas_tarefas.split(\", \")\n",
-        "    print(\"\\nA lista de tarefas adicionadas é:\")\n",
-        "    for tarefa in novas_tarefas:\n",
-        "      print(\"- \" + tarefa)\n",
-        "\n",
-        "\n",
-        "  elif opcao == 2:\n",
-        "    marcar_tarefa_como_concluida(tarefas)\n",
-        "\n",
-        "  elif opcao == 3:\n",
-        "    remover_tarefa()\n",
-        "\n",
-        "  elif opcao == 4:\n",
-        "    visualizar_tarefas_pendentes(tarefas)\n",
-        "\n",
-        "  #Se a opção digitada não estiver entre 1 a 5 mostrará a mensagem: Digite uma opção válida! retornando ao começo do loop.\n",
-        "  elif opcao not in [1, 2, 3, 4, 5]:\n",
-        "    print(\"\\n(((Digite uma opção válida!)))\")\n",
-        "\n",
-        "  elif opcao == 5:\n",
-        "    sistema = False\n",
-        "    print(\"Saindo do sistema...\")"
-      ]
-    }
-  ]
-}
+print("SISTEMA GERENCIADOR DE TAREFAS")
+tarefas = []
+
+#Função 00 Imprimir lista formatada.
+def imprimir_lista_formatada(tarefas):
+  contador = 1
+  for i in range (len(tarefas)):
+    print(contador," - ", tarefas[i])
+    contador = contador + 1
+
+#função 01 adicionar tarefas.
+def adicionar_tarefas(tarefas, novas_tarefas):
+    tarefas.extend(novas_tarefas.split(', '))
+
+# Função 02 Marcar tarefa como concluída.
+def marcar_tarefa_como_concluida(tarefas):
+    if len(tarefas) == 0:
+        print("Sua lista está vazia! Não há tarefas para marcar como concluída.")
+        return
+
+    imprimir_lista_formatada(tarefas) # Lista as tarefas para o usuário
+
+    while True:  # Loop para garantir que o usuário insira um valor válido
+        try:
+            indice = int(input("Qual tarefa você concluiu? Digite o número dela: ")) - 1
+            if indice >= 0 and indice < len(tarefas):  # Verifica se o índice é válido
+                tarefas[indice] += " - Concluída"  # Marca a tarefa como concluída
+                print(f'Ótimo trabalho! A tarefa "{tarefas[indice]}" foi marcada como concluída!')
+                break  # Sai do loop após uma entrada válida
+            else:
+                print("Número inválido! Tente novamente.")
+        except ValueError:  # Captura a exceção se a conversão falhar
+            print("Por favor, digite um número válido.")
+
+#Função 03 remover tarefas.
+def remover_tarefa():
+    if tarefas:
+        imprimir_lista_formatada(tarefas)  #Lista as tarefas antes de remover
+        indice = int(input("Número da tarefa a remover: ")) - 1
+        if 0 <= indice < len(tarefas):
+            print(f'Tarefa "{tarefas[indice]}" removida!')
+            tarefas.pop(indice)  #Remove a tarefa pelo índice
+        else:
+            print("Número inválido.")
+    else:
+        print("Não há tarefas para remover.")
+
+#Função 04 Visualizar tarefas pendentes.
+def visualizar_tarefas_pendentes(tarefas):
+  if not tarefas:
+    print("\nNão há tarefas pendentes")
+
+  else:
+    print("\nTarefas pendentes:")
+    for i, tarefa in enumerate(tarefas, start = 1):  #Começa a enumeração pelo 1
+      print(f"{i}. {tarefa}")
+
+#interface
+sistema = True
+while sistema:
+  print("-" * 40)
+  print("\nMenu do gerenciador de tarefas \nEscolha uma ação:")
+  print("\n1. Adicionar tarefas \n2. Marcar tarefa como concluída \n3. Remover tarefa \n4. Visualizar tarefas pendentes \n5. Sair")
+  print("-" * 40)
+  print()
+  opcao = int(input())
+
+  if (opcao == 1):
+    print("\nEscreva o nome das novas Tarefas: ")
+    novas_tarefas = str(input())
+    adicionar_tarefas(tarefas, novas_tarefas)
+    novas_tarefas = novas_tarefas.split(", ")
+    print("\nA lista de tarefas adicionadas é:")
+    for tarefa in novas_tarefas:
+      print("- " + tarefa)
+
+
+  elif opcao == 2:
+    marcar_tarefa_como_concluida(tarefas)
+
+  elif opcao == 3:
+    remover_tarefa()
+
+  elif opcao == 4:
+    visualizar_tarefas_pendentes(tarefas)
+
+  #Se a opção digitada não estiver entre 1 a 5 mostrará a mensagem: Digite uma opção válida! retornando ao começo do loop.
+  elif opcao not in [1, 2, 3, 4, 5]:
+    print("\n(((Digite uma opção válida!)))")
+
+  elif opcao == 5:
+    sistema = False
+    print("Saindo do sistema...")
