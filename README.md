@@ -28,11 +28,11 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
 <div align="center">
   <h2>👥 Equipe do Projeto</h2>
 
-| Integrante | Contato |
-|------------|---------|
-| 👨‍💻 José Lucas Pereira de Andrade | [GitHub](https://github.com/Jose1Lucas) |
-| 👩‍💻 Lara Vitória da Costa Bezerra | [GitHub](https://github.com/larav1) |
-| 👨‍💻 Mickaio Gabriel Francisco da Silva | [GitHub](https://github.com/kaiogabs) |
-| 👩‍💻 Raylany Shimizu de Macêdo | [GitHub](https://github.com/Raylany-Shimizu) |
-| 👨‍💻 Wesley Nascimento Santos | [GitHub](https://github.com/Wesleypk) |
+| Integrante | Função | Contato | 
+|------------|--------|---------|
+| 👨‍💻 José Lucas Pereira de Andrade | Função 01 | [GitHub](https://github.com/Jose1Lucas)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
+| 👩‍💻 Lara Vitória da Costa Bezerra | Função 04 | [GitHub](https://github.com/larav1)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
+| 👨‍💻 Mickaio Gabriel Francisco da Silva | Função 02 | [GitHub](https://github.com/kaiogabs)  <br> [LinkedIn](https://www.linkedin.com/in/kaiogabs/) |
+| 👩‍💻 Raylany Shimizu de Macêdo | Função 03 | [GitHub](https://github.com/Raylany-Shimizu)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
+| 👨‍💻 Wesley Nascimento Santos | Função 05 | [GitHub](https://github.com/Wesleypk)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
 </div>
