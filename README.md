@@ -35,5 +35,5 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
 | 👨‍💻 Mickaio Gabriel Francisco da Silva | Função 02 | [GitHub](https://github.com/kaiogabs)  <br> [LinkedIn](https://www.linkedin.com/in/kaiogabs/) |
 | 👩‍💻 Raylany Shimizu de Macêdo | Função 03 | [GitHub](https://github.com/Raylany-Shimizu)  <br> [LinkedIn](http://www.linkedin.com/in/raylany-shimizu-871b00201) |
 | 👩‍💻 Lara Vitória da Costa Bezerra | Função 04 | [GitHub](https://github.com/larav1)  <br> [LinkedIn](https://www.linkedin.com/in/laravitoria1) |
-| 👨‍💻 Wesley Nascimento Santos | Função 05 | [GitHub](https://github.com/Wesleypk)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
+| 👨‍💻 Wesley Nascimento Santos | Função 05 | [GitHub](https://github.com/Wesleypk)  <br> [LinkedIn](https://www.linkedin.com/in/wesley-nascimento-santos) |
 </div>
