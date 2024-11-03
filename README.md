@@ -17,11 +17,12 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
 
 <div align="justify">
   <ol>
-    <li><b>Adicionar Tarefa:</b> possibilita o cadastro de novas tarefas, com informações relevantes como a descrição e a data de criação, simplificando a gestão das tarefas cotidianas.</li>
-    <li><b>Marcar Tarefa como Concluída:</b> os usuários têm a opção de assinalar quando uma tarefa foi concluída, preservando um registro de avanço e simplificando a gestão de tarefas.</li>
-    <li><b>Remover Tarefa:</b> proporciona a opção de eliminar tarefas, independentemente de terem sido concluídas ou não, preservando a organização e a atualização das informações no sistema.</li>
-    <li><b>Visualizar Tarefas Pendentes:</b> lista todas as atividades que ainda não foram finalizadas, proporcionando uma perspectiva nítida das tarefas que precisam ser executadas.</li>
-    <li><b>Sair do Sistema:</b> finaliza o sistema de forma segura, mantendo o estado das atividades.</li>
+    <li><b>Adicionar Tarefa:</b> Permite que os usuários registrem novas tarefas. As tarefas são adicionadas à lista existente, dividindo a entrada do usuário em múltiplas tarefas caso sejam separadas por vírgulas. Isso facilita a inclusão de várias tarefas de uma vez.
+.</li>
+    <li><b>Marcar Tarefa como Concluída:</b> Possibilita ao usuário indicar que uma tarefa foi finalizada. O usuário escolhe uma tarefa pelo número, que é então marcada com a anotação "Concluída", ajudando a acompanhar o progresso das atividades.</li>
+    <li><b>Remover Tarefa:</b> Oferece ao usuário a opção de excluir uma tarefa específica da lista. O usuário informa o número da tarefa que deseja remover, e essa tarefa é eliminada do sistema, independentemente de estar concluída ou não.</li>
+    <li><b>Visualizar Tarefas Pendentes:</b> Lista todas as tarefas que ainda não foram finalizadas. Isso fornece aos usuários uma visão clara do que precisa ser feito, ajudando na priorização e na gestão das tarefas pendentes.</li>
+    <li><b>Sair do Sistema:</b> Finaliza a execução do sistema de forma segura, permitindo que o usuário saia do gerenciador de tarefas. Isso garante que o estado das atividades e tarefas seja mantido para futuras interações.</li>
   </ol>
 </div>
 
@@ -30,9 +31,9 @@ O objetivo do projeto é criar um sistema de tarefas diárias para apoiar as equ
 
 | Integrante | Função | Contato | 
 |------------|--------|---------|
-| 👨‍💻 José Lucas Pereira de Andrade | Função 01 | [GitHub](https://github.com/Jose1Lucas)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
-| 👩‍💻 Lara Vitória da Costa Bezerra | Função 04 | [GitHub](https://github.com/larav1)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
+| 👨‍💻 José Lucas Pereira de Andrade | Função 01 | [GitHub](https://github.com/Jose1Lucas)  <br> [LinkedIn](https://www.linkedin.com/in/jos%C3%A9-lucas-b823b8283/) |
 | 👨‍💻 Mickaio Gabriel Francisco da Silva | Função 02 | [GitHub](https://github.com/kaiogabs)  <br> [LinkedIn](https://www.linkedin.com/in/kaiogabs/) |
-| 👩‍💻 Raylany Shimizu de Macêdo | Função 03 | [GitHub](https://github.com/Raylany-Shimizu)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
+| 👩‍💻 Raylany Shimizu de Macêdo | Função 03 | [GitHub](https://github.com/Raylany-Shimizu)  <br> [LinkedIn](http://www.linkedin.com/in/raylany-shimizu-871b00201) |
+| 👩‍💻 Lara Vitória da Costa Bezerra | Função 04 | [GitHub](https://github.com/larav1)  <br> [LinkedIn](https://www.linkedin.com/in/laravitoria1) |
 | 👨‍💻 Wesley Nascimento Santos | Função 05 | [GitHub](https://github.com/Wesleypk)  <br> [LinkedIn](https://www.linkedin.com/in/seu-linkedin-aqui) |
 </div>
