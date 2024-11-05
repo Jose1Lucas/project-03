@@ -127,5 +127,6 @@ while sistema:
         visualizar_tarefas_pendentes(tarefas)
 
     elif opcao == 5:
-        sistema = False
-        print("Saindo do sistema...")
+        sistema = False  # Encerra o loop do sistema
+        progress_bar(10) 
+        print("\nSistema encerrado.")
