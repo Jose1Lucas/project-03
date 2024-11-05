@@ -86,7 +86,7 @@ def visualizar_tarefas_pendentes(tarefas):
     for i in range(len(tarefas)):
       if ("Concluída") not in tarefas[i]:
         print(contador, "-", tarefas[i])
-        contador =+ 1
+        contador += 1
         tarefa_pendente = True
 
 # interface
